@@ -1,0 +1,127 @@
+{
+  "user": {
+    "name": "Tanvir Ahassan",
+    "location": "Mirpur, Dhaka",
+    "profile_image": "https://randomuser.me/api/portraits/men/32.jpg"
+  },
+
+  "actions": [
+    {
+      "title": "Book Appointment",
+      "image": "https://www.astridverlag.com/wp-content/uploads/2022/08/burst2-scaled.jpg"
+    },
+    {
+      "title": "Instant Video Consult",
+      "image": "https://prod-img.noordhollandsdagblad.nl/public/incoming/mszecs-351fd1e6-bd91-11ed-8ce6-0218eaf05005.jpg/alternates/BASE_SIXTEEN_NINE/351fd1e6-bd91-11ed-8ce6-0218eaf05005.jpg"
+    },
+    {
+      "title": "Medicines",
+      "image": "https://static1.cbrimages.com/wordpress/wp-content/uploads/2021/10/medication.jpg"
+    },
+    {
+      "title": "Lab Tests",
+      "image": "https://cdn-images-1.medium.com/v2/resize:fill:1600:480/gravity:fp:0.5:0.4/format:jpg/1*AY2ip8Q17b7qqcnW0sTSFw.jpeg"
+    },
+    {
+      "title": "Emergency",
+      "image": "https://i.ytimg.com/vi/FzVTO9TEnfg/maxresdefault.jpg"
+    }
+  ],
+
+  "specialities": [
+    { "label": "Eye Specialist", "icon": "visibility" },
+    { "label": "Dentist", "icon": "medical_services" },
+    { "label": "Cardiologist", "icon": "favorite" },
+    { "label": "Pulmonologist", "icon": "air" },
+    { "label": "Physiotherapist", "icon": "psychology" }
+  ],
+
+  "specialists": [
+    {
+      "name": "Dr. Emma Kathrin",
+      "image": "https://krayt.biz/upload/sites/519/dalton-ngangi-ZCztndOWdjs-unsplash_2x.jpg"
+    },
+    {
+      "name": "Dr. John Doe",
+      "image": "https://static.tildacdn.com/tild3962-6132-4164-a462-623531373163/usman-yousaf-pTrhfmj.jpg"
+    },
+    {
+      "name": "Dr. George Ray",
+      "image": "https://thumbs.dreamstime.com/z/smart-doctor-5645557.jpg"
+    },
+    {
+      "name": "Dr. Mark Smith",
+      "image": "https://thumbs.dreamstime.com/z/portrait-middle-aged-male-doctor-11717229.jpg"
+    },
+    {
+      "name": "Dr. John Brown",
+      "image": "https://hips.hearstapps.com/hmg-prod/images/portrait-of-a-happy-young-doctor-in-his-clinic-royalty-free-image-1661432441.jpg"
+    }
+  ],
+
+  "doctorDetails": {
+    "doctor": {
+      "id": "1",
+      "name": "Dr. Emma Kathrin",
+      "speciality": "Cardiologist",
+      "qualification": "MBBS",
+      "image": "https://pic.rutubelist.ru/user/00/00/a538f80ca3c4a32f33cbbc0048347de1_78.jpg",
+      "rating": 4.3,
+      "years_of_experience": 14,
+      "patients_treated": 125,
+      "consultation_fee": 1000
+    },
+
+    "appointment": {
+      "type": "In-Clinic Appointment",
+      "hospital": {
+        "name": "Evercare Hospital Ltd.",
+        "location": "Boshundhora, Dhaka",
+        "wait_time": "20 mins or less",
+        "more_clinics": [
+          { "name": "Square Hospital", "location": "Panthapath, Dhaka" },
+          { "name": "United Hospital", "location": "Gulshan, Dhaka" }
+        ]
+      },
+      "available_days": [
+        { "day": "Today", "slots": [] },
+        {
+          "day": "Tomorrow",
+          "slots": ["06:00 - 06:30", "06:30 - 07:00", "07:00 - 07:30"]
+        },
+        {
+          "day": "17 Oct",
+          "slots": ["07:00 - 07:30", "07:30 - 08:00"]
+        }
+      ]
+    },
+
+    "timing": [
+      { "day": "Monday", "time": "09:00 AM - 05:00 PM" },
+      { "day": "Tuesday", "time": "09:00 AM - 05:00 PM" },
+      { "day": "Wednesday", "time": "09:00 AM - 05:00 PM" },
+      { "day": "Thursday", "time": "09:00 AM - 05:00 PM" },
+      { "day": "Friday", "time": "09:00 AM - 05:00 PM" },
+      { "day": "Saturday", "time": "10:00 AM - 02:00 PM" },
+      { "day": "Sunday", "time": "Closed" }
+    ],
+
+    "locations": [
+      {
+        "title": "Shahbag",
+        "subtitle": "BSSMU - Bangabandhu Sheikh Mujib Medical University"
+      },
+      { "title": "Boshundhora", "subtitle": "Evercare Hospital Ltd." },
+      { "title": "Banani", "subtitle": "Popular Diagnostic Centre" }
+    ],
+
+    "stats": {
+      "rating": 4.3,
+      "reviews": 120,
+      "years_of_experience": 14,
+      "patients_treated": 125
+    },
+
+    "tabs": ["Info", "History", "Review"]
+  }
+}
