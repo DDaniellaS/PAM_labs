@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'bindings/home_binding.dart';
-import 'pages/home_page.dart';
+import 'presentation/bindings/home_binding.dart';
+import 'presentation/pages/home_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'PAM Lab 3',
+      title: 'PAM Lab 4',
       initialBinding: HomeBinding(),
       home: const HomePage(),
       theme: ThemeData(
